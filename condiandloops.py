@@ -79,4 +79,31 @@
 # res=res.lstrip("0")
 # print(res)
 
+# Write a program to determine if given number is palindrome or not. Print true if it is palindrome, false otherwise.
+
+
+# palin=input("enter the number to check the palindrome")
+# rev=palin[::-1]
+# if palin==rev:
+#     print("true")
+# else:
+#     print("false")
+
+# Write a program to input an integer N and print the sum of all its even digits and sum of all its odd digits separately.
+ 
+# n=int(input("enter the number : "))
+# e=0
+# o=0
+# while n>0:
+#     res=n%10
+#     n=n//10
+#     if res%2==0:
+#         e=e+res
+#     else:
+#         o=o+res
+
+# print(e,o)
+
+
+    
 
