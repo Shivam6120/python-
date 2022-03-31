@@ -22,11 +22,24 @@
 # print(sum)
 
 # Given a number N, print sum of all even numbers from 1 to N.
-n=int(input("enter the number : "))
-i=0
-sum=0
-while (i<=n):
-    if i%2==0:
-        sum=sum+i
-    i=i+1
-print(sum)
+
+
+# n=int(input("enter the number : "))
+# i=0
+# sum=0
+# while (i<=n):
+#     if i%2==0:
+#         sum=sum+i
+#     i=i+1
+# print(sum)
+
+# Given three values - Start Fahrenheit Value (S), End Fahrenheit value (E) and Step Size (W), you need to convert all Fahrenheit values from Start to End at the gap of W, into their corresponding Celsius values and print the table.
+
+s=int(input("enter the starting fahrenheit temperature:"))
+e=int(input("enter the end  fahrenheit temperature:"))
+w=int(input("steps taken :"))
+while s<=e:
+    c=(s-32)*5//9
+    print(s,c)
+    s=s+w
+
