@@ -45,30 +45,38 @@
 
 # Write a program that performs the tasks of a simple calculator. The program should first take an integer as input and then based on that integer perform the task as given below.
  
-while True :
-    n = int(input())
-    if n==1:
-        a = int(input())
-        b = int(input())
-        print(a+b)
-    elif n==2:
-        a = int(input())
-        b = int(input())
-        print(a-b)
-    elif n==3:
-        a = int(input())
-        b = int(input())
-        print(a*b)
-    elif n==4:
-        a = int(input())
-        b = int(input())
-        print(a//b)
-    elif n==5:
-        a = int(input())
-        b = int(input())
-        print(a%b)
-    elif n==6:
-        break
-    else:
-        print("Invalid Operation")
+# while True :
+#     n = int(input())
+#     if n==1:
+#         a = int(input())
+#         b = int(input())
+#         print(a+b)
+#     elif n==2:
+#         a = int(input())
+#         b = int(input())
+#         print(a-b)
+#     elif n==3:
+#         a = int(input())
+#         b = int(input())
+#         print(a*b)
+#     elif n==4:
+#         a = int(input())
+#         b = int(input())
+#         print(a//b)
+#     elif n==5:
+#         a = int(input())
+#         b = int(input())
+#         print(a%b)
+#     elif n==6:
+#         break
+#     else:
+#         print("Invalid Operation")
+
+
+# Write a program to generate the reverse of a given number N. Print the corresponding reverse number.
+
+# res=input("enter the number")[::-1]
+# res=res.lstrip("0")
+# print(res)
+
 
