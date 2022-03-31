@@ -10,6 +10,17 @@
 # You are given two integers: X and N. You have to calculate X raised to power N and print it.
 
 
-x=int(input())
-y=int(input())
-print(x**y)
+# x=int(input())
+# y=int(input())
+# print(x**y)
+
+
+# You are given first three entries of an arithmetic progression. You have to calculate the common difference and print it
+
+# Write your code here
+a=int(input())
+b=int(input())
+c=int(input())
+d=b-a
+print(d)
+
